@@ -6,7 +6,6 @@ pipeline {
         stage('Log Tool version') {
           steps {
             sh '''git --version
-java --version
 docker --version'''
           }
         }
